@@ -1,0 +1,6 @@
+C:\Users\raghured\source\repos\equal\bin\Debug\equal.exe.config
+C:\Users\raghured\source\repos\equal\bin\Debug\equal.exe
+C:\Users\raghured\source\repos\equal\bin\Debug\equal.pdb
+C:\Users\raghured\source\repos\equal\obj\Debug\equal.csproj.CoreCompileInputs.cache
+C:\Users\raghured\source\repos\equal\obj\Debug\equal.exe
+C:\Users\raghured\source\repos\equal\obj\Debug\equal.pdb
