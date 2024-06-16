@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace assignment
 {
-    class loop
+    class conso
     {
        public static void Main()
         {
