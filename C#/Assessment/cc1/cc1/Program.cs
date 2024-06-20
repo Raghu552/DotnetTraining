@@ -10,7 +10,8 @@ namespace cc1
     {
         static void Main(string[] args)
         {
-            table(5);
+            Console.WriteLine("enter a number");
+            table(Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("------------------------");
             Console.WriteLine("enter the string");
             rev(Console.ReadLine());
