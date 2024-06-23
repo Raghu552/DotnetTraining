@@ -1,7 +1,0 @@
-C:\Users\raghured\source\repos\day2\obj\Debug\day2.csproj.AssemblyReference.cache
-C:\Users\raghured\source\repos\day2\obj\Debug\day2.csproj.CoreCompileInputs.cache
-C:\Users\raghured\source\repos\day2\bin\Debug\day2.exe.config
-C:\Users\raghured\source\repos\day2\bin\Debug\day2.exe
-C:\Users\raghured\source\repos\day2\bin\Debug\day2.pdb
-C:\Users\raghured\source\repos\day2\obj\Debug\day2.exe
-C:\Users\raghured\source\repos\day2\obj\Debug\day2.pdb

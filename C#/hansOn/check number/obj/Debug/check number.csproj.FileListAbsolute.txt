@@ -1,6 +1,0 @@
-C:\Users\raghured\source\repos\check number\bin\Debug\check number.exe.config
-C:\Users\raghured\source\repos\check number\bin\Debug\check number.exe
-C:\Users\raghured\source\repos\check number\bin\Debug\check number.pdb
-C:\Users\raghured\source\repos\check number\obj\Debug\check number.csproj.CoreCompileInputs.cache
-C:\Users\raghured\source\repos\check number\obj\Debug\check number.exe
-C:\Users\raghured\source\repos\check number\obj\Debug\check number.pdb
