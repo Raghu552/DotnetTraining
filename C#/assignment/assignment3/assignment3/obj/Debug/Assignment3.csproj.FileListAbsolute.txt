@@ -1,0 +1,7 @@
+D:\dotnet\C#\assignment\Account\Account\bin\Debug\Account.exe.config
+D:\dotnet\C#\assignment\Account\Account\bin\Debug\Account.exe
+D:\dotnet\C#\assignment\Account\Account\bin\Debug\Account.pdb
+D:\dotnet\C#\assignment\Account\Account\obj\Debug\Assignment3.csproj.AssemblyReference.cache
+D:\dotnet\C#\assignment\Account\Account\obj\Debug\Assignment3.csproj.CoreCompileInputs.cache
+D:\dotnet\C#\assignment\Account\Account\obj\Debug\Account.exe
+D:\dotnet\C#\assignment\Account\Account\obj\Debug\Account.pdb
