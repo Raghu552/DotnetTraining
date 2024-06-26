@@ -1,0 +1,7 @@
+D:\dotnet\C#\Assessment\CC2\CC2\bin\Debug\CC2.exe.config
+D:\dotnet\C#\Assessment\CC2\CC2\bin\Debug\CC2.exe
+D:\dotnet\C#\Assessment\CC2\CC2\bin\Debug\CC2.pdb
+D:\dotnet\C#\Assessment\CC2\CC2\obj\Debug\CC2.csproj.AssemblyReference.cache
+D:\dotnet\C#\Assessment\CC2\CC2\obj\Debug\CC2.csproj.CoreCompileInputs.cache
+D:\dotnet\C#\Assessment\CC2\CC2\obj\Debug\CC2.exe
+D:\dotnet\C#\Assessment\CC2\CC2\obj\Debug\CC2.pdb
