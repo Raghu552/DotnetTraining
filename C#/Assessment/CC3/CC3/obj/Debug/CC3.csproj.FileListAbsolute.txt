@@ -1,0 +1,7 @@
+D:\dotnet\C#\Assessment\CC3\CC3\bin\Debug\CC3.exe.config
+D:\dotnet\C#\Assessment\CC3\CC3\bin\Debug\CC3.exe
+D:\dotnet\C#\Assessment\CC3\CC3\bin\Debug\CC3.pdb
+D:\dotnet\C#\Assessment\CC3\CC3\obj\Debug\CC3.csproj.AssemblyReference.cache
+D:\dotnet\C#\Assessment\CC3\CC3\obj\Debug\CC3.csproj.CoreCompileInputs.cache
+D:\dotnet\C#\Assessment\CC3\CC3\obj\Debug\CC3.exe
+D:\dotnet\C#\Assessment\CC3\CC3\obj\Debug\CC3.pdb
