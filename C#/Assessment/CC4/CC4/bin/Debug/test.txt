@@ -1,0 +1,3 @@
+This is a new line of text.
+Appending more text to the file.
+Appending another line for demonstration.
