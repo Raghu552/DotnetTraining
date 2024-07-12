@@ -22,7 +22,7 @@ namespace Assignment4
         {
             display();
             Console.WriteLine("2.-------------------");
-            CountStr.CountChar();
+            Count.CountChar();
             Console.WriteLine("4.-------------------");
             Scholarship.Merit();
             Console.WriteLine("5.-------------------");

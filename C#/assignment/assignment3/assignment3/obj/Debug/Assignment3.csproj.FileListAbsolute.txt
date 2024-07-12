@@ -5,3 +5,10 @@ D:\dotnet\C#\assignment\Account\Account\obj\Debug\Assignment3.csproj.AssemblyRef
 D:\dotnet\C#\assignment\Account\Account\obj\Debug\Assignment3.csproj.CoreCompileInputs.cache
 D:\dotnet\C#\assignment\Account\Account\obj\Debug\Account.exe
 D:\dotnet\C#\assignment\Account\Account\obj\Debug\Account.pdb
+D:\dotnet\C#\assignment\assignment3\assignment3\bin\Debug\Account.exe.config
+D:\dotnet\C#\assignment\assignment3\assignment3\bin\Debug\Account.exe
+D:\dotnet\C#\assignment\assignment3\assignment3\bin\Debug\Account.pdb
+D:\dotnet\C#\assignment\assignment3\assignment3\obj\Debug\Assignment3.csproj.AssemblyReference.cache
+D:\dotnet\C#\assignment\assignment3\assignment3\obj\Debug\Assignment3.csproj.CoreCompileInputs.cache
+D:\dotnet\C#\assignment\assignment3\assignment3\obj\Debug\Account.exe
+D:\dotnet\C#\assignment\assignment3\assignment3\obj\Debug\Account.pdb
