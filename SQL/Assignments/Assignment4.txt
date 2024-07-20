@@ -1,0 +1,65 @@
+1.
+create or alter function fact(@n int)
+returns int
+as
+begin
+	declare @result int=1
+	if(@n<=1)
+		return @result
+	while(@n>1)
+		begin
+		set @result=@result*@n
+		set @n=@n-1
+	end
+		return @result
+end
+select dbo.fact(5) as Factorial
+
+
+
+2.
+create or alter proc MultiplicationTable(@num int,@endNum int)
+as
+begin
+    declare @i int = 1
+
+    while @i <= @endNum
+    begin
+        print cast(@num as varchar(10)) + ' x ' + cast(@i as varchar(10)) + ' = ' + cast(@num * @i as varchar(10));
+        set @i = @i + 1
+    end
+end
+exec MultiplicationTable 5,10
+
+
+
+3.
+use Assignment2
+create table Holidays (
+    HolidayDate date,
+    HolidayName varchar(30)
+)
+insert into Holidays (HolidayDate, HolidayName)
+values('2024-07-20', ' sankranthi'),
+('2022-10-24', 'Diwali'),
+('2022-12-25', 'Christmas'),
+('2023-01-01', 'New Year''s Day')
+create or alter trigger trg_RestrictEMPManipulation
+on emp
+instead of insert,update,delete
+as
+begin
+declare @HolidayDate date=getdate()
+    declare @HolidayName varchar(20)
+    select @HolidayName = HolidayName
+    from Holidays
+    where HolidayDate = @HolidayDate
+    if @HolidayName is not null
+    begin
+        raiserror ('Due to %s, you cannot manipulate data', 16, 1, @HolidayName)
+        rollback tran
+    end
+end
+insert into emp values (8001, 'John Doe', 'CLERK', 7698, '2024-07-20', 1000.00, NULL, 20,22)
+
+
