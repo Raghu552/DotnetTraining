@@ -60,6 +60,6 @@ declare @HolidayDate date=getdate()
         rollback tran
     end
 end
-insert into emp values (8001, 'John Doe', 'CLERK', 7698, '2024-07-20', 1000.00, NULL, 20,22)
+insert into emp values (8001, 'Raghu', 'software', 7698, '2024-07-20', 8000.00, NULL, 20,22)
 
 
