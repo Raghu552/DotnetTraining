@@ -1,0 +1,32 @@
+create or alter proc Gen_payslip(@empid int)
+as 
+begin
+declare @salary decimal(10,2)
+declare @HRA decimal(10,2)
+declare @DA decimal(10,2)
+declare @PF decimal(10,2)
+declare @IT decimal(10,2)
+declare @Deduction decimal(10,2)
+declare @gross_salary decimal(10,2)
+declare @net_salary decimal(10,2)
+select @salary=salary from tblemployees where empid=@empid
+set @HRA=@salary*0.10
+set @DA=@salary*0.20
+set @PF=@salary*0.08
+set @IT=@salary*0.05
+set @Deduction=@PF+@IT
+set @gross_salary=@salary+@HRA+@DA
+set @net_salary=@gross_salary-@Deduction
+print '-----------------------------------------------------'
+print 'The paySlip for id '+cast(@empid  as varchar(10))+' is:'
+print 'Salary :'+cast(@salary as varchar(10))
+print 'HRA 10% :'+cast(@HRA as varchar(10))
+print 'DA 20% :'+cast(@DA as varchar(10))
+print 'PF 8% :'+cast(@pf as varchar(10))
+print 'IT 5% :'+cast(@it as varchar(10))
+print 'Deductions :'+cast(@deduction as varchar(10))
+print 'Gross Salary :'+cast(@gross_salary as varchar(10))
+print 'Net Salary :'+cast(@net_salary as varchar(10))
+print '-----------------------------------------------------'
+end
+gen_payslip 101
