@@ -1,0 +1,7 @@
+D:\dotnet\SQL\Assessments\ADO\Procedures\Procedures\bin\Debug\Procedures.exe.config
+D:\dotnet\SQL\Assessments\ADO\Procedures\Procedures\bin\Debug\Procedures.exe
+D:\dotnet\SQL\Assessments\ADO\Procedures\Procedures\bin\Debug\Procedures.pdb
+D:\dotnet\SQL\Assessments\ADO\Procedures\Procedures\obj\Debug\Procedures.csproj.AssemblyReference.cache
+D:\dotnet\SQL\Assessments\ADO\Procedures\Procedures\obj\Debug\Procedures.csproj.CoreCompileInputs.cache
+D:\dotnet\SQL\Assessments\ADO\Procedures\Procedures\obj\Debug\Procedures.exe
+D:\dotnet\SQL\Assessments\ADO\Procedures\Procedures\obj\Debug\Procedures.pdb

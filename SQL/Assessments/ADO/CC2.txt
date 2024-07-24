@@ -1,0 +1,18 @@
+create database employeeManagement
+create table employee_Details(empno int,
+empname varchar(20) not null,
+empsal decimal(10,2) check(empsal>=25000),
+emptype char(1) check (emptype in ('f','p'))
+)
+
+create or alter proc add_row_in_employee_Details
+@empname varchar(20),
+@empsal decimal(10,2),
+@emptype char(1)
+as
+begin
+insert into employee_Details values((select coalesce(max(empno),0)+1 from employee_Details),@empname,@empsal,@emptype)
+end
+exec add_row_in_employee_Details 'raghu',30000,'p'
+
+select * from employee_Details 
