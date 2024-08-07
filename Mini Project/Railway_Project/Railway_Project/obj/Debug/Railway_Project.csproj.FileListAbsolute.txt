@@ -1,0 +1,7 @@
+D:\practise\Railway_Project\Railway_Project\bin\Debug\Railway_Project.exe.config
+D:\practise\Railway_Project\Railway_Project\bin\Debug\Railway_Project.exe
+D:\practise\Railway_Project\Railway_Project\bin\Debug\Railway_Project.pdb
+D:\practise\Railway_Project\Railway_Project\obj\Debug\Railway_Project.csproj.AssemblyReference.cache
+D:\practise\Railway_Project\Railway_Project\obj\Debug\Railway_Project.csproj.CoreCompileInputs.cache
+D:\practise\Railway_Project\Railway_Project\obj\Debug\Railway_Project.exe
+D:\practise\Railway_Project\Railway_Project\obj\Debug\Railway_Project.pdb
