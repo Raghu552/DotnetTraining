@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>    
+</head>
+<body>
+    <!--1st approach-->
+    <script>
+        var btn = document.createElement('button')
+        btn.textContent = "Click me" ;
+        btn.addEventListener("click", () => {
+            console.log("Created button is clicked");
+        });
+        document.body.appendChild(btn);
+    </script>
+
+    <!--2nd approach-->
+    <script>
+        function demo() {
+            document.getElementById('txt').innerHTML='button clicked'
+        }
+    </script>
+    <input type="button" onclick="demo()" value="click" />
+    <p id="txt"></p>
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Divide</title>
+    <script>
+        function divide() {
+            var num1 = parseFloat(document.getElementById('txt1').value);
+            var num2 = parseFloat(document.getElementById('txt2').value);
+            document.getElementById('res').innerHTML = num1 / num2;
+        }
+        function Multiply() {
+            var num1 = parseFloat(document.getElementById('txt1').value);
+            var num2 = parseFloat(document.getElementById('txt2').value);
+            document.getElementById('res').innerHTML = num1 * num2;
+        }
+    </script>
+</head>
+<body>
+    1st number :
+    <input type="text" id="txt1" placeholder="enter number" /><br /><br />
+    2nd number :
+    <input type="text" id="txt2" placeholder="enter number" /><br /><br />
+    <button type="button" onclick="divide()">Divide</button>
+    <button type="button" onclick="Multiply()">Multiply</button><br />
+    <p>The result is :</p>
+    <h2 id="res"></h2>
+
+</body>
+</html>
