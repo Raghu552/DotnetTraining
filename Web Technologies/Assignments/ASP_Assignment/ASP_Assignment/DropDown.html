@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Product Dropdown</title>
+    <style>
+        #Image {
+            width: 300px;
+            height: 200px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Product Drop-Down</h1>
+    <select id="Products" onchange="Product()">
+        <option>Select a product</option>
+        <option value="Cars">Car</option>
+        <option value="Bikes">Bike</option>
+        <option value="Aeroplane">Aeroplane</option>
+        <option value="Bus">Bus</option>
+        <option value="Ships">Ship</option>
+    </select>
+    <br><br>
+    <img id="Image" src="" alt="Image">
+    <br><br>
+    <button onclick="Price()">Price</button>
+    <br><br>
+    <input type="text" id="txtPrice">
+
+    <script>
+        let products = {
+            "Cars": { price: 1000000, image: "Images/Car.jpg" },
+            "Bikes": { price: 900000, image: "Images/Bike.jpg" },
+            "Aeroplane": { price: 12000000, image: "Images/Plane.jpg" },
+            "Bus": { price: 200000, image: "Images/Bus.jpg" },
+            "Ships": { price: 500000, image:"Images/Ship.jpg" }
+        };
+
+        function Product() {
+            let Product = document.getElementById("Products").value;
+            let Image = document.getElementById("Image");
+            Image.src = products[Product].image;
+        }
+
+        function Price() {
+            let Product = document.getElementById("Products").value;
+            let txtPrice = document.getElementById("txtPrice");
+            txtPrice.value = products[Product].price;
+        }
+    </script>
+</body>
+</html>
